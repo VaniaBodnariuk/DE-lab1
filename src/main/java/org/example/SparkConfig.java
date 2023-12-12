@@ -1,8 +1,6 @@
 package org.example;
 
-import lombok.experimental.UtilityClass;
 import org.apache.spark.sql.SparkSession;
-
 
 public class SparkConfig {
     private final SparkSession.Builder SPARK_SESION_BUILDER = SparkSession.builder()

@@ -15,7 +15,6 @@ public class SparkProcessor {
     private static final String NAME_AND_MESSAGES_COLUMN = "name_and_messages";
 
     private final SparkConfig sparkConfig;
-
     private final FileWriter fileWriter;
 
     public void processData(String filepath) {
